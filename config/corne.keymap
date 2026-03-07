@@ -59,9 +59,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp GRAVE       &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LCTRL
+&kp ESC         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P         &kp BSPC
+&kp GRAVE       &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI      &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp LCTRL
                               &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
@@ -74,9 +74,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0        &kp BSPC
-&kp CAPSLOCK  &kp MINUS       &kp LESS_THAN         &kp GREATER_THAN       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON     &kp DOUBLE_QUOTES
-&kp LCTRL     &kp LALT        &kp TILDE             &kp PIPE               &kp SLASH         &kp BACKSLASH        &kp STAR   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION  &kp TILDE
+&kp TAB       &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0     &kp BSPC
+&kp CAPSLOCK  &kp MINUS       &kp LESS_THAN         &kp GREATER_THAN       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
+&kp LCTRL     &kp LALT        &kp TILDE             &kp PIPE               &kp SLASH         &kp BACKSLASH        &kp STAR   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCL   &kp TILDE
                                                     &kp LGUI               &trans            &kp SPACE            &kp RET    &trans        &kp RALT
             >;
         };
