@@ -74,10 +74,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4      &kp NUMBER_5            &kp NUMBER_6           &kp NUMBER_7       &kp NUMBER_8     &kp N9            &kp N0    &kp BSPC
-&kp CAPSLOCK  &kp MINUS     &kp LESS_THAN  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp BSLH  &kp GRAVE
-&kp LCTRL     &kp LALT      &kp LEFT_GUI   &kp COLON       &kp PIPE          &kp NON_US_BACKSLASH    &kp MINUS              &kp UNDERSCORE     &kp PLUS         &kp QUESTION      &kp PIPE  &kp TILDE
-                                           &kp LGUI        &trans            &kp SPACE               &kp RET                &trans             &kp RALT
+&kp TAB       &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0        &kp BSPC
+&kp CAPSLOCK  &kp MINUS       &kp LESS_THAN         &kp GREATER_THAN       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON     &kp DOUBLE_QUOTES
+&kp LCTRL     &kp LALT        &kp TILDE             &kp PIPE               &kp SLASH         &kp BACKSLASH        &kp STAR   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION  &kp TILDE
+                                                    &kp LGUI               &trans            &kp SPACE            &kp RET    &trans        &kp RALT
             >;
         };
 
