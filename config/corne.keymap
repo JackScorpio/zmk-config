@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1          &kp F2            &kp F3        &kp F4    &kp F5                    &kp F6                       &kp TILDE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp END
-&kp F7          &kp F8            &kp F9        &kp F10   &kp F11                   &kp F12                      &kp UNDER  &kp DOLLAR     &kp PERCENT   &kp CARET             &kp BACKSLASH          &kp PAGE_UP
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))    &kp PLUS   &kp EXCL       &kp AT        &kp HASH              &kp SLASH              &kp PAGE_DOWN
-                                                &kp LGUI  &trans                    &kp ENTER                    &kp SPACE  &trans         &kp RALT
+&kp F1         &kp F2     &kp F3         &kp F4    &kp F5                    &kp F6                       &kp TILDE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp END
+&kp F7         &kp F8     &kp F9         &kp F10   &kp F11                   &kp F12                      &kp UNDER  &kp DOLLAR     &kp PERCENT   &kp CARET             &kp BACKSLASH          &kp PAGE_UP
+&kp LS(LA(A))  &kp LC(A)  &kp LS(LA(X))  &kp LGUI  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))    &kp PLUS   &kp EXCL       &kp AT        &kp HASH              &kp SLASH              &kp PAGE_DOWN
+                                         &kp LGUI  &trans                    &kp ENTER                    &kp SPACE  &trans         &kp RALT
             >;
         };
 
