@@ -16,36 +16,6 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <33 32>;
-        };
-
-        colon {
-            bindings = <&kp COLON>;
-            key-positions = <22 21>;
-        };
-
-        grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <21 22>;
-        };
-
-        question {
-            bindings = <&kp QUESTION>;
-            key-positions = <34 33>;
-        };
-
-        tidle {
-            bindings = <&kp TILDE>;
-            key-positions = <35 12>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <35 34>;
-        };
     };
 
     keymap {
@@ -74,10 +44,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &kp PIPE   &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0     &kp HOME
-&kp CAPSLOCK  &kp MINUS  &kp LESS_THAN   &kp GREATER_THAN  &kp UP            &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
-&kp LCTRL     &kp LALT   &kp TILDE       &kp LEFT          &kp DOWN_ARROW    &kp RIGHT            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCL   &kp TILDE
-                                         &kp LGUI          &trans            &kp ENTER            &kp SPACE  &trans        &kp RALT
+&kp TAB        &kp PIPE   &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0     &kp HOME
+&kp LS(LC(Z))  &kp LC(X)  &kp LESS_THAN   &kp GREATER_THAN  &kp UP            &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
+&kp LC(Z)      &kp LC(C)  &kp LC(V)       &kp LEFT          &kp DOWN_ARROW    &kp RIGHT            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCL   &kp TILDE
+                                          &kp LGUI          &trans            &kp ENTER            &kp SPACE  &trans        &kp RALT
             >;
         };
 
@@ -89,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp EXCLAMATION   &kp AT_SIGN   &kp HASH          &kp DOLLAR                &kp PERCENT                  &kp TILDE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp END
-&kp LSHFT       &kp F2            &kp LC(G)     &kp LA(UP_ARROW)  &kp LG(LEFT_BRACKET)      &kp LG(RIGHT_BRACKET)        &kp UNDER  &kp DOLLAR     &kp PERCENT   &kp CARET             &kp BACKSLASH          &kp PAGE_UP
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI          &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))    &kp PLUS   &kp EXCL       &kp AT        &kp HASH              &kp SLASH              &kp PAGE_DOWN
-                                                &kp LGUI          &trans                    &kp ENTER                    &kp SPACE  &trans         &kp RALT
+&kp F1          &kp F2            &kp F3        &kp F4    &kp F5                    &kp F6                       &kp TILDE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp END
+&kp F7          &kp F8            &kp F9        &kp F10   &kp F11                   &kp F12                      &kp UNDER  &kp DOLLAR     &kp PERCENT   &kp CARET             &kp BACKSLASH          &kp PAGE_UP
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))    &kp PLUS   &kp EXCL       &kp AT        &kp HASH              &kp SLASH              &kp PAGE_DOWN
+                                                &kp LGUI  &trans                    &kp ENTER                    &kp SPACE  &trans         &kp RALT
             >;
         };
 
