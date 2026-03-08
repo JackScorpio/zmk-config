@@ -44,10 +44,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB        &kp PIPE   &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0     &kp HOME
-&kp LS(LC(Z))  &kp LC(X)  &kp LESS_THAN   &kp GREATER_THAN  &kp UP            &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
-&kp LC(Z)      &kp LC(C)  &kp LC(V)       &kp LEFT          &kp DOWN_ARROW    &kp RIGHT            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCL   &kp TILDE
-                                          &kp LGUI          &trans            &kp ENTER            &kp SPACE  &trans        &kp RALT
+&kp TAB         &kp PIPE       &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0     &kp HOME
+&kp CAPS        &kp LC(A)      &kp LESS_THAN   &kp GREATER_THAN  &kp UP            &kp RIGHT_BRACE      &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &kp LC(LS(Z))  &kp LA(LS(X))   &kp LEFT          &kp DOWN_ARROW    &kp RIGHT            &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCL   &kp TILDE
+                                               &kp LGUI          &trans            &kp ENTER            &kp SPACE  &trans        &kp RALT
             >;
         };
 
